@@ -16,13 +16,15 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Vorträge <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>johannesdienst_talks.html">Johannes Dienst</a></li>
+                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>talks/johannesdienst_talks.html">Johannes Dienst</a></li>
+                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>talks/rdm.html">Ralf D. Müller</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>johannesdienst.html">Johannes Dienst</a></li>
+                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>johannesdienst">Johannes Dienst</a></li>
+                <li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>rdmueller">Ralf D. Müller</a></li>
               </ul>
             </li>
 <!-- li><a href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>talks.html">Talks</a></li -->
